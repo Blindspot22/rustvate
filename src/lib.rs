@@ -1,14 +1,13 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+use wasm_bindgen::prelude::*;
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+static BLOCKLIST: &[&str] = &["ads.example.com", "tracking.example.com"];
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
+#[wasm_bindgen]
+pub fn is_ad_url(url: &str) -> bool {
+    for block in BLOCKLIST.iter() {
+        if url.contains(block) {
+            return true;
+        }
     }
+    false
 }

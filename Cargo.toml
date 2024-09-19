@@ -1,8 +1,15 @@
 [package]
 name = "rustvate"
 version = "0.1.0"
-edition = "2021"
-license = "MIT"
+authors = ["Enow Scott <enowscott53@gmail.com>"]
+description = "Rustvate is a browser extension for ad-blocking, powered by Rust and WebAssembly."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Blindspot22/rustvate"
+homepage = "https://github.com/Blindspot22/rustvate"
+documentation = "https://github.com/Blindspot22/rustvate"
+readme = "README.md"
+keywords = ["ad-blocker", "wasm", "browser-extension"]
+categories = ["web-programming", "networking"]
 
 [dependencies]
 wasm-bindgen = "0.2"

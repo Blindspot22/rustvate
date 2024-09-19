@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Rustvate",
   "version": "1.0",
-  "description": "A Rust-based ad-blocking extension created by Enow Scott.",
+  "description": "A Rust-based ad-blocking extension created by [Enow Scott](https://github.com/Blindspot22).",
   "background": {
     "scripts": ["background.js"],
     "persistent": false

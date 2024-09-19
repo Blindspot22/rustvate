@@ -1,4 +1,4 @@
-import init, { is_ad_url } from './pkg/ad_blocker.js';
+import init, { is_ad_url } from './pkg/rustvate.js';
 
 async function main() {
     // Initialize the WebAssembly module (Rust logic)

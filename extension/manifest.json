@@ -2,20 +2,23 @@
   "manifest_version": 2,
   "name": "Rustvate",
   "version": "1.0",
-  "description": "A lightweight, high-performance ad-blocker powered by Rust and WebAssembly.",
-  "permissions": [
-    "webRequest",
-    "webRequestBlocking",
-    "<all_urls>"
-  ],
+  "description": "A Rust-based ad-blocking extension.",
   "background": {
     "scripts": ["background.js"],
-    "persistent": true
+    "persistent": false
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
 }

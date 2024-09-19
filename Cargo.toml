@@ -9,7 +9,8 @@ homepage = "https://github.com/Blindspot22/rustvate"
 documentation = "https://github.com/Blindspot22/rustvate"
 readme = "README.md"
 keywords = ["ad-blocker", "wasm", "browser-extension"]
-categories = ["web-programming", "networking"]
+# Updated categories with supported slugs
+categories = ["web-programming"]
 
 [dependencies]
 wasm-bindgen = "0.2"

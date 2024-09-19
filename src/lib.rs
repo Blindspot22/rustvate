@@ -1,4 +1,6 @@
+extern crate wasm_bindgen;
 use wasm_bindgen::prelude::*;
+
 
 // A static list of common ad-related domains
 static BLOCKLIST: &[&str] = &[

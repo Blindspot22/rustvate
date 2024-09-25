@@ -517,8 +517,8 @@ static BLOCKLIST: &[&str] = &[
 pub fn is_ad_url(url: &str) -> bool {
     for block in BLOCKLIST.iter() {
         if url.contains(block) {
-            return true; // Match found, it's an ad
+            return true; 
         }
     }
-    false // No match, it's not an ad
+    false 
 }

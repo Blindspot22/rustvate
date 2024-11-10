@@ -1,4 +1,5 @@
 # Rustvate: A Rust-Based Ad-Blocking Extension
+
 ## Overview
 
 **Rustvate** is a lightweight, high-performance ad-blocking browser extension developed in Rust and WebAssembly. It aims to block both visual ads and network requests, enhancing user privacy and browsing experience. This project leverages Rust’s efficiency and safety features to create a robust ad-blocker.

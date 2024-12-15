@@ -1,3 +1,4 @@
+
 # Rustvate: A Rust-Based Ad-Blocking Extension
 
 ## Overview
